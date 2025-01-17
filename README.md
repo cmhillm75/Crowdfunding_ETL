@@ -20,15 +20,15 @@ contacts.csv
 subcategory.csv  
 
 ## Project Structure
-Crowdfunding_ETL/
-│
-├── data/
-│   ├── contacts.xlsx
-│   ├── crowdfunding.xlsx
-│   └── ...
-│
-├── notebooks/
-│   └── ETL_Mini_Project_C_Hillman.ipynb
+Crowdfunding_ETL/  
+│  
+├── data/  
+│   ├── contacts.xlsx  
+│   ├── crowdfunding.xlsx  
+│   └── ...  
+│  
+├── notebooks/  
+│   └── ETL_Mini_Project_C_Hillman.ipynb  
 │
 ├── output/
 │   ├── campaign.csv
