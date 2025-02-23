@@ -1,17 +1,21 @@
 # Crowdfunding_ETL
+
 Chad Hillman  
 Mini Project 2  
 January 2025.  
 
 ## Overview
+
 This project focuses on extracting, transforming, and loading (ETL) crowdfunding data to clean and analyze the data. The goal is to create a well-structured database from the provided excel spreadsheets based on Module1 homework. We will be using jupyter notebook, QuickDBD to create the schema from our csv outputs and then to create the 4 tables usign SQL via PgAdmin4.
 
 ## Starter File
+
 ETL_Mini_Project_C_Hillman.ipynb  
 crowdfunding_db_schema.png  
 crowdfunding_db_schema.sql  
 
 ## Resources Folder
+
 contacts.xlsx  
 crowdfunding.xlsx.  
 campaign.csv  
@@ -20,6 +24,7 @@ contacts.csv
 subcategory.csv  
 
 ## Project Structure
+
 Crowdfunding_ETL/  
 │  
 ├── data/  
@@ -41,6 +46,7 @@ Crowdfunding_ETL/
     └── crowdfunding_db_schema.sql
 
 ## Process Steps
+
 1. Load in the `crowdfunding.xlsx` file and create the `category` and `subcategory` DataFrames.
 2. Amend the crowdfunding data to create the `campaign` DataFrame.
 3. Remove unwanted columns and merge the the `category` & `subcategory` DataFrames with the newly created `campaign` DataFrame.
@@ -55,4 +61,5 @@ Crowdfunding_ETL/
 12. Load each CSV into the SQL database to complete the database creation.
 
 ## License
+
 This project is licensed under the terms of the GNU General Public License v3.0. For more details, see the [LICENSE](https://www.gnu.org/licenses/gpl-3.0.en.html) file.
